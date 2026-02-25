@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-orange: #f07d00;
+  --brand-red: #dd291b;
+  --brand-gray: #d7d9d8;
+  --brand-charcoal: #332f2e;
+  --brand-white: #ffffff;
+  --brand-warm: #f1f1f0;
+  --whatsapp-green: #25d366;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--brand-charcoal);
+  background-color: var(--brand-white);
+  font-family: var(--font-body), sans-serif;
+  line-height: 1.6;
+}
+
+::selection {
+  background-color: rgba(240, 125, 0, 0.18);
+  color: var(--brand-charcoal);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading), sans-serif;
+    color: var(--brand-charcoal);
+    letter-spacing: -0.02em;
+  }
+
+  .font-brand {
+    font-family: var(--font-brand), serif;
+  }
+}
+
+@layer components {
+  .site-shell-bg {
+    background-image:
+      radial-gradient(circle at 10% 0%, rgba(240, 125, 0, 0.14), transparent 38%),
+      radial-gradient(circle at 88% 4%, rgba(221, 41, 27, 0.09), transparent 28%);
+  }
+
+  .section-space {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  .panel {
+    @apply rounded-xl2 border border-brand-gray/80 bg-brand-white shadow-card;
+  }
+
+  .kicker {
+    @apply inline-flex items-center rounded-full border border-brand-gray px-4 py-1.5 text-xs font-semibold tracking-[0.14em] text-brand-charcoal;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-11 items-center justify-center rounded-lg bg-brand-orange px-5 py-3 text-sm font-semibold text-brand-white transition-colors duration-200 hover:bg-brand-orange/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40;
+  }
+
+  .btn-outline-orange {
+    @apply inline-flex min-h-11 items-center justify-center rounded-lg border border-brand-orange px-5 py-3 text-sm font-semibold text-brand-orange transition-colors duration-200 hover:bg-brand-orange hover:text-brand-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40;
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex min-h-11 items-center justify-center rounded-lg bg-brand-whatsapp px-5 py-3 text-sm font-semibold text-brand-white transition-colors duration-200 hover:bg-brand-whatsapp/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40;
+  }
+
+  .input-base {
+    @apply w-full rounded-lg border border-brand-gray bg-brand-white px-4 py-3 text-sm text-brand-charcoal outline-none transition-colors duration-200 placeholder:text-brand-charcoal/50 focus:border-brand-orange;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-brand-gray bg-brand-warm px-3 py-1 text-xs font-medium text-brand-charcoal;
+  }
+}
