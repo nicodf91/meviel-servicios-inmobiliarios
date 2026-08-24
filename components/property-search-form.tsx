@@ -75,7 +75,7 @@ export function PropertySearchForm({ variant = "default" }: PropertySearchFormPr
             <Search className="mr-2 h-4 w-4" />
             Buscar Propiedades
           </button>
-          <p className={helperClass}>Te respondemos en menos de 24 h hábiles.</p>
+          <p className={helperClass}>Filtros locales sobre un catálogo ficticio.</p>
         </div>
       </div>
 

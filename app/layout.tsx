@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Cinzel, Montserrat, Source_Sans_3 } from "next/font/google";
 import "@/app/globals.css";
-import { FloatingWhatsApp } from "@/components/floating-whatsapp";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { siteConfig } from "@/lib/metadata";
@@ -32,12 +31,9 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   keywords: [
-    "inmobiliaria córdoba",
-    "martillero público",
-    "tasación inmobiliaria",
-    "venta de propiedades",
-    "alquileres córdoba",
-    "Meviel",
+    "demo frontend inmobiliaria",
+    "portfolio Next.js",
+    "catálogo inmobiliario ficticio",
   ],
   openGraph: {
     title: siteConfig.name,
@@ -47,8 +43,8 @@ export const metadata: Metadata = {
     type: "website",
   },
   robots: {
-    index: true,
-    follow: true,
+    index: false,
+    follow: false,
   },
 };
 
@@ -63,9 +59,13 @@ export default function RootLayout({
         className={`${headingFont.variable} ${bodyFont.variable} ${brandFont.variable} site-shell-bg antialiased`}
       >
         <SiteHeader />
-        <main className="min-h-screen pt-[86px] sm:pt-[92px]">{children}</main>
+        <main className="min-h-screen pt-[86px] sm:pt-[92px]">
+          <div className="border-b border-brand-orange/30 bg-brand-warm px-4 py-2 text-center text-xs text-brand-charcoal">
+            Demo de portfolio: propiedades y métricas ilustrativas; los formularios no envían ni guardan datos.
+          </div>
+          {children}
+        </main>
         <SiteFooter />
-        <FloatingWhatsApp />
       </body>
     </html>
   );

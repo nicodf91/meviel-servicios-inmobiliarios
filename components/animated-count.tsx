@@ -34,8 +34,10 @@ export function AnimatedCount({
     }
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      setDisplayValue(value);
-      return;
+      frameRef.current = window.requestAnimationFrame(() => setDisplayValue(value));
+      return () => {
+        if (frameRef.current !== null) window.cancelAnimationFrame(frameRef.current);
+      };
     }
 
     let timeoutId: number | null = null;

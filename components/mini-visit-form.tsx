@@ -36,12 +36,12 @@ export function MiniVisitForm() {
         />
       </div>
       <button type="submit" className="btn-outline-orange w-full">
-        Enviar solicitud
+        Validar formulario de demo
       </button>
-      <p className="text-xs text-brand-charcoal/70">Te respondemos en menos de 24 h hábiles.</p>
+      <p className="text-xs text-brand-charcoal/70">Sin backend: la información no sale del navegador ni queda almacenada.</p>
       {sent ? (
         <div className="rounded-lg border border-brand-orange/40 bg-brand-warm p-3 text-xs">
-          Solicitud enviada. Te contactaremos a la brevedad.
+          Validación completada. La demo no envió ni guardó la solicitud.
         </div>
       ) : null}
     </form>

@@ -49,13 +49,13 @@ export function ContactForm() {
       </div>
 
       <button type="submit" className="btn-primary w-full">
-        Quiero asesoramiento inmobiliario
+        Validar formulario de demo
       </button>
-      <p className="text-xs text-brand-charcoal/70">Te respondemos en menos de 24 h hábiles.</p>
+      <p className="text-xs text-brand-charcoal/70">Sin backend: la información no sale del navegador ni queda almacenada.</p>
 
       {sent ? (
         <div className="rounded-lg border border-brand-orange/40 bg-brand-warm p-4 text-sm text-brand-charcoal">
-          Tu consulta fue enviada correctamente. En breve nos vamos a comunicar.
+          Validación completada. La demo no envió ni guardó la consulta.
         </div>
       ) : null}
     </form>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const primaryLinks = [
@@ -17,14 +17,11 @@ const companyActivePrefixes = ["/quienes-somos", "/mision-vision", "/faq"];
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [openPath, setOpenPath] = useState<string | null>(null);
+  const mobileOpen = openPath === pathname;
 
   const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
   const isCompanyActive = companyActivePrefixes.some((href) => isActive(href));
-
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
 
   return (
     <header className="fixed inset-x-0 top-0 z-50">
@@ -77,7 +74,7 @@ export function SiteHeader() {
             aria-label={mobileOpen ? "Cerrar menú" : "Abrir menú"}
             aria-expanded={mobileOpen}
             aria-controls="mobile-menu-panel"
-            onClick={() => setMobileOpen((current) => !current)}
+            onClick={() => setOpenPath(mobileOpen ? null : pathname)}
             className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-lg border border-brand-gray text-brand-charcoal transition-colors duration-200 hover:bg-brand-warm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40 lg:hidden"
           >
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
@@ -92,7 +89,7 @@ export function SiteHeader() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    onClick={() => setMobileOpen(false)}
+                    onClick={() => setOpenPath(null)}
                     className={cn(
                       "block rounded-md px-3 py-2.5 text-sm font-semibold text-brand-charcoal transition-colors duration-200 hover:bg-brand-warm hover:text-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40",
                       isActive(item.href) ? "bg-brand-warm text-brand-orange" : "",
@@ -103,7 +100,7 @@ export function SiteHeader() {
                 ))}
                 <Link
                   href="/quienes-somos"
-                  onClick={() => setMobileOpen(false)}
+                  onClick={() => setOpenPath(null)}
                   className={cn(
                     "block rounded-md px-3 py-2.5 text-sm font-semibold text-brand-charcoal transition-colors duration-200 hover:bg-brand-warm hover:text-brand-orange focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-charcoal/40",
                     isCompanyActive ? "bg-brand-warm text-brand-orange" : "",

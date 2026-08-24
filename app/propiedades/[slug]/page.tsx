@@ -8,7 +8,6 @@ import {
   CarFront,
   CheckCircle2,
   MapPin,
-  PhoneCall,
   Ruler,
 } from "lucide-react";
 import { Container } from "@/components/container";
@@ -155,14 +154,14 @@ export default function PropertyDetailPage({ params }: PropertyDetailPageProps) 
               <p className="text-brand-charcoal/85">{property.longDescription}</p>
 
               <div className="rounded-xl border border-brand-gray/80 bg-brand-warm/75 p-5">
-                <h3 className="text-lg font-semibold">Coordiná una visita con asesoramiento profesional</h3>
+                <h3 className="text-lg font-semibold">Probá el flujo de visita demostrativo</h3>
                 <p className="mt-2 text-sm text-brand-charcoal/75">
-                  Recibí análisis de valor, comparables de mercado y asesoramiento profesional para decidir con criterio.
+                  No existe propiedad, agenda ni asesoramiento. Usá solamente datos ficticios.
                 </p>
                 <Link href="/contacto" className="btn-primary mt-4">
-                  Agendar visita
+                  Probar formulario
                 </Link>
-                <p className="mt-2 text-xs text-brand-charcoal/70">Te respondemos en menos de 24 h hábiles.</p>
+                <p className="mt-2 text-xs text-brand-charcoal/70">La demo no envía datos ni promete respuesta.</p>
               </div>
             </article>
 
@@ -214,20 +213,20 @@ export default function PropertyDetailPage({ params }: PropertyDetailPageProps) 
               />
               <div className="p-4">
                 <p className="text-sm text-brand-charcoal/80">
-                  Ubicación referencial para orientar la búsqueda. Coordiná una visita para conocer la propiedad en detalle.
+                  Ubicación genérica de demostración. No corresponde a una publicación inmobiliaria activa.
                 </p>
               </div>
             </article>
 
             <article className="panel flex flex-col gap-4 bg-brand-charcoal p-6 text-brand-white md:flex-row md:items-center md:justify-between">
               <div>
-                <h2 className="text-2xl font-semibold text-brand-white">¿Querés avanzar con esta propiedad?</h2>
+                <h2 className="text-2xl font-semibold text-brand-white">¿Querés revisar el flujo de contacto?</h2>
                 <p className="mt-2 text-sm text-brand-white/80">
-                  Hablemos hoy mismo y definimos estrategia de compra, reserva o inversión.
+                  La pantalla de contacto valida datos localmente y explica que no los envía.
                 </p>
               </div>
               <Link href="/contacto" className="btn-primary">
-                Quiero asesoramiento sobre esta propiedad
+                 Ver contacto demostrativo
               </Link>
             </article>
 
@@ -245,33 +244,23 @@ export default function PropertyDetailPage({ params }: PropertyDetailPageProps) 
 
           <aside className="space-y-5 xl:sticky xl:top-[130px] xl:h-fit">
             <article className="panel space-y-4 border-brand-gray/75 p-5">
-              <h3 className="text-xl font-semibold">Agendá una visita</h3>
+               <h3 className="text-xl font-semibold">Visita de demostración</h3>
               <p className="text-sm text-brand-charcoal/75">
-                Coordiná día y horario para conocer la propiedad con asesoramiento profesional en cada paso.
+                 Probá el formulario solo con datos ficticios; no existe agenda ni propiedad real.
               </p>
 
               <Link
-                href="https://wa.me/5493515550101?text=Hola,%20me%20interesa%20esta%20propiedad."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-whatsapp w-full"
+                href="/contacto"
+                className="btn-outline-orange w-full"
               >
-                Hablar por WhatsApp
+                Ver alcance del contacto
               </Link>
 
               <Link href="/contacto" className="btn-primary w-full">
-                Agendar visita
+                Probar formulario local
               </Link>
 
-              <p className="text-xs text-brand-charcoal/70">Te respondemos en menos de 24 h hábiles.</p>
-            </article>
-
-            <article className="panel space-y-2 border-brand-gray/75 p-5">
-              <h3 className="text-base font-semibold">Atención directa</h3>
-              <p className="flex items-center gap-2 text-sm text-brand-charcoal/80">
-                <PhoneCall className="h-4 w-4 text-brand-orange" />
-                +54 9 351 555 0101
-              </p>
+              <p className="text-xs text-brand-charcoal/70">La demo no agenda visitas ni promete respuesta.</p>
             </article>
           </aside>
         </div>
