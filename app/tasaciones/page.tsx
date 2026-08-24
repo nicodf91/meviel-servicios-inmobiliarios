@@ -7,25 +7,25 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Tasaciones",
   description:
-    "Tasación profesional para vender con criterio y estrategia. Meviel Servicios Inmobiliarios, Matrícula N° 7788.",
+    "Formulario demostrativo de tasación con validación local y sin envío de datos.",
   path: "/tasaciones",
 });
 
 const valueBlocks = [
   {
-    title: "Seguridad jurídica",
+    title: "Bloque informativo",
     icon: Scale,
-    text: "Análisis documental y trazabilidad legal para operar con previsibilidad y sin sorpresas.",
+    text: "Ejemplo de jerarquía visual; no ofrece análisis documental ni asesoramiento legal.",
   },
   {
-    title: "Producción audiovisual",
+    title: "Presentación visual",
     icon: Camera,
-    text: "Contenido visual profesional para posicionar tu propiedad con estándar comercial premium.",
+    text: "Tarjeta ilustrativa para demostrar composición, iconografía y contenido responsive.",
   },
   {
-    title: "Difusión multicanal",
+    title: "Flujo local",
     icon: Megaphone,
-    text: "Publicación estratégica en portales, base de datos y redes para acelerar consultas calificadas.",
+    text: "El formulario cambia su estado en el navegador, sin publicar ni compartir información.",
   },
 ];
 
@@ -34,17 +34,17 @@ export default function TasacionesPage() {
     <section className="section-space pt-12">
       <Container>
         <SectionHeading
-          eyebrow="Tasaciones estratégicas"
-          title="Tasación profesional para vender con criterio y estrategia."
-          description="Definimos el valor de mercado y una estrategia de venta clara para que tomes decisiones con respaldo profesional."
+          eyebrow="Formulario de muestra"
+          title="Demostración de una solicitud de tasación"
+          description="No calcula valores ni conecta con profesionales. Usá únicamente datos ficticios para revisar la experiencia de usuario."
         />
 
         <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_420px]">
           <div>
             <div className="panel p-7">
-              <h2 className="text-2xl font-semibold">Solicitá tu tasación</h2>
+              <h2 className="text-2xl font-semibold">Probá el formulario local</h2>
               <p className="mt-2 text-sm text-brand-charcoal/75">
-                Evaluación profesional con foco en valor real, tiempos de comercialización y estrategia de posicionamiento.
+                No hay tasación, agenda, almacenamiento ni envío; el estado de éxito lo explica explícitamente.
               </p>
               <div className="mt-5">
                 <TasacionForm />

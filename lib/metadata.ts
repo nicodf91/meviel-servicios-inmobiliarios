@@ -2,37 +2,34 @@ import { Metadata } from "next";
 
 export const siteConfig = {
   name: "Meviel Servicios Inmobiliarios",
-  shortName: "Meviel Inmobiliaria",
+  shortName: "Meviel — demo",
   description:
-    "Meviel Servicios Inmobiliarios. Martillero y Corredor Público e Inmobiliario, Matrícula N° 7788. Compra, venta, alquiler y tasaciones con respaldo constructivo.",
-  url: "https://www.mevielinmobiliaria.com",
+    "Demo de portfolio inmobiliario con catálogo y formularios locales. Contenido, propiedades, identidad profesional y métricas ilustrativos.",
+  url: "https://meviel-servicios-inmobiliarios.vercel.app",
 };
 
 export function buildMetadata({
   title,
   description,
-  path = "",
 }: {
   title: string;
   description: string;
   path?: string;
 }): Metadata {
   const fullTitle = `${title} | ${siteConfig.shortName}`;
-  const canonicalUrl = `${siteConfig.url}${path}`;
-
   return {
     title: fullTitle,
     description,
+    robots: {
+      index: false,
+      follow: false,
+    },
     openGraph: {
       title: fullTitle,
       description,
-      url: canonicalUrl,
       siteName: siteConfig.name,
       locale: "es_AR",
       type: "website",
-    },
-    alternates: {
-      canonical: canonicalUrl,
     },
   };
 }

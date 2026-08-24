@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Desarrollos propios",
   description:
-    "Proyectos del ecosistema Simon Bustamante Servicios Inmobiliarios, comercializados por Simon y respaldados por Meviel en diseño y dirección de obra.",
+    "Tarjetas de desarrollos ficticios usadas para demostrar una interfaz de portfolio.",
   path: "/desarrollos-propios",
 });
 
@@ -18,9 +18,9 @@ export default function OwnedDevelopmentsPage() {
     <section className="section-space pt-12">
       <Container>
         <SectionHeading
-          eyebrow="Desarrollos propios"
-          title="Desarrollos propios del ecosistema Simon Bustamante"
-          description="Proyectos comercializados por Simon Bustamante Servicios Inmobiliarios, con respaldo estratégico y constructivo de Meviel en diseño y dirección de obra."
+          eyebrow="Dataset ilustrativo"
+          title="Desarrollos de demostración"
+          description="Nombres, etapas, unidades, imágenes y descripciones son ficticios; no representan proyectos ni ofertas activas."
         />
 
         <div className="mb-8 rounded-2xl border border-brand-gray/80 bg-brand-warm/60 p-5 md:p-6">
@@ -30,7 +30,7 @@ export default function OwnedDevelopmentsPage() {
                 <ShieldCheck className="h-5 w-5 text-brand-orange" aria-hidden />
               </div>
               <p className="text-sm leading-relaxed text-brand-charcoal/85">
-                Simon lidera la comercialización y el acompañamiento inmobiliario de cada proyecto.
+                La interfaz muestra cómo presentar una colección de proyectos sin afirmar comercialización real.
               </p>
             </div>
             <div className="flex items-start gap-3">
@@ -38,7 +38,7 @@ export default function OwnedDevelopmentsPage() {
                 <Building2 className="h-5 w-5 text-brand-orange" aria-hidden />
               </div>
               <p className="text-sm leading-relaxed text-brand-charcoal/85">
-                Meviel aporta respaldo técnico y constructivo para fortalecer la confianza en cada desarrollo.
+                El repositorio no acredita diseño, dirección de obra, respaldo técnico ni titularidad de desarrollos.
               </p>
             </div>
           </div>
@@ -64,17 +64,16 @@ export default function OwnedDevelopmentsPage() {
                   >
                     {development.stage}
                   </span>
-                  <span className="chip">Desarrollo propio</span>
+                  <span className="chip">Desarrollo ficticio</span>
                 </div>
                 <h2 className="text-2xl font-semibold">{development.name}</h2>
                 <p className="text-sm text-brand-charcoal/80">{development.summary}</p>
                 <p className="text-sm font-semibold">{development.units}</p>
                 <p className="text-xs leading-relaxed text-brand-charcoal/70">
-                  Comercializa: Simon Bustamante Servicios Inmobiliarios. Respaldo constructivo:
-                  Meviel (diseño y dirección de obra).
+                  Contenido de portfolio: sin comercialización, titularidad, diseño ni dirección de obra verificados.
                 </p>
                 <Link href="/contacto" className="btn-outline-orange">
-                  Solicitar información del desarrollo
+                  Probar formulario demostrativo
                 </Link>
               </div>
             </article>

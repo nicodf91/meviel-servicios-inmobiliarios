@@ -8,7 +8,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Departamento",
     zone: "Nueva Córdoba",
-    address: "Bv. Chacabuco 980, Córdoba Capital",
+    address: "Zona Nueva Córdoba — ubicación ilustrativa",
     price: 165000,
     currency: "USD",
     bedrooms: 2,
@@ -49,7 +49,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.420083,-64.182191",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-002",
@@ -58,7 +58,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Casa",
     zone: "Cerro de las Rosas",
-    address: "Av. Rafael Núñez 5200, Córdoba Capital",
+    address: "Zona Cerro de las Rosas — ubicación ilustrativa",
     price: 320000,
     currency: "USD",
     bedrooms: 4,
@@ -99,7 +99,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.356613,-64.243604",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-003",
@@ -108,7 +108,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Dúplex",
     zone: "Docta",
-    address: "Barrio Docta, Córdoba",
+    address: "Zona oeste de Córdoba — ubicación ilustrativa",
     price: 189000,
     currency: "USD",
     bedrooms: 3,
@@ -142,7 +142,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1600607687644-c7f34b5dc08b?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.460291,-64.302911",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-004",
@@ -151,7 +151,7 @@ export const properties: Property[] = [
     operation: "Alquiler",
     type: "Local",
     zone: "Centro",
-    address: "Av. Colón 145, Córdoba Capital",
+    address: "Zona centro de Córdoba — ubicación ilustrativa",
     price: 1350000,
     currency: "ARS",
     bedrooms: 0,
@@ -184,7 +184,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.413327,-64.188289",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-005",
@@ -193,7 +193,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Terreno",
     zone: "La Cascada",
-    address: "Country La Cascada, Zona Sur",
+    address: "Zona sur de Córdoba — ubicación ilustrativa",
     price: 98000,
     currency: "USD",
     bedrooms: 0,
@@ -227,7 +227,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.500676,-64.260418",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-006",
@@ -236,7 +236,7 @@ export const properties: Property[] = [
     operation: "Alquiler",
     type: "Departamento",
     zone: "General Paz",
-    address: "Lima 1350, General Paz, Córdoba",
+    address: "Zona General Paz — ubicación ilustrativa",
     price: 690000,
     currency: "ARS",
     bedrooms: 2,
@@ -263,7 +263,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1600566752734-f8d8f47bd5d5?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.415973,-64.170253",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-007",
@@ -272,7 +272,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Terreno",
     zone: "Manantiales",
-    address: "Manantiales II, Córdoba",
+    address: "Zona Manantiales — ubicación ilustrativa",
     price: 76000,
     currency: "USD",
     bedrooms: 0,
@@ -300,7 +300,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.505341,-64.253223",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-008",
@@ -309,7 +309,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Casa",
     zone: "Argüello",
-    address: "Recta Martinoli 7800, Córdoba",
+    address: "Zona noroeste de Córdoba — ubicación ilustrativa",
     price: 245000,
     currency: "USD",
     bedrooms: 3,
@@ -342,7 +342,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.347963,-64.281367",
+    mapQuery: "Córdoba, Argentina",
   },
   {
     id: "prop-009",
@@ -351,7 +351,7 @@ export const properties: Property[] = [
     operation: "Venta",
     type: "Departamento",
     zone: "Alberdi",
-    address: "Duarte Quirós 1500, Córdoba Capital",
+    address: "Zona Alberdi — ubicación ilustrativa",
     price: 128000,
     currency: "USD",
     bedrooms: 2,
@@ -385,7 +385,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=80",
       "https://images.unsplash.com/photo-1600566752734-f8d8f47bd5d5?auto=format&fit=crop&w=1600&q=80",
     ],
-    mapQuery: "-31.405972,-64.203792",
+    mapQuery: "Córdoba, Argentina",
   },
 ];
 
@@ -440,52 +440,52 @@ export const faqItems: FaqItem[] = [
   {
     question: "¿Qué documentación necesito para vender una propiedad?",
     answer:
-      "En general se solicita escritura, DNI titular, planos (si existen), impuestos y servicios al día. Analizamos cada caso para confirmar documentación adicional.",
+      "En una operación real, la documentación necesaria debe confirmarse con un profesional habilitado; esta demo no revisa casos ni documentos.",
   },
   {
     question: "¿Cómo se reserva una propiedad?",
     answer:
-      "Se firma una reserva con propuesta formal y se deja una seña. Luego se coordina la etapa de boleto y revisión documental previa a la escritura.",
+      "La demo no reserva propiedades ni recibe señas. Esta pregunta solo muestra el componente de acordeón.",
   },
   {
     question: "¿Cómo se calcula la comisión inmobiliaria?",
     answer:
-      "La comisión se informa con transparencia al inicio de la operación y depende del tipo de inmueble, modalidad y alcance del servicio contratado.",
+      "La demo no calcula comisiones ni ofrece servicios; cualquier condición comercial requeriría información verificada.",
   },
   {
     question: "¿Realizan tasaciones para herencias o divisiones?",
     answer:
-      "Sí. Trabajamos tasaciones con criterio técnico y respaldo documental para operaciones privadas, sucesiones, particiones y acuerdos entre partes.",
+      "No. El formulario es local y no produce tasaciones, informes ni documentación.",
   },
   {
     question: "¿Cuánto tarda en venderse una propiedad?",
     answer:
-      "Depende de ubicación, estado, precio de salida y estrategia comercial. Nuestro objetivo es reducir tiempos con posicionamiento correcto y difusión profesional.",
+      "No se puede estimar: las publicaciones son ficticias y no existe una operación comercial.",
   },
   {
     question: "¿También trabajan alquileres?",
     answer:
-      "Sí, gestionamos alquileres residenciales y comerciales con análisis de perfil, requisitos y acompañamiento contractual en cada etapa.",
+      "No. La interfaz muestra filtros de venta y alquiler sobre un dataset ficticio, sin gestión contractual.",
   },
   {
     question: "¿Puedo comprar una propiedad con crédito hipotecario?",
     answer:
-      "Sí, en inmuebles aptos crédito. Te acompañamos en la coordinación con entidad financiera y en la documentación necesaria para la operación.",
+      "La demo no coordina créditos ni valida inmuebles; no debe usarse para decisiones financieras.",
   },
   {
     question: "¿Qué incluye el servicio de comercialización?",
     answer:
-      "Incluye tasación estratégica, producción audiovisual, publicación en portales y redes, gestión de consultas, visitas guiadas y negociación profesional.",
+      "No existe un servicio de comercialización. La página demuestra componentes frontend y contenido estático.",
   },
   {
     question: "¿Trabajan con inversores para lotes y desarrollos?",
     answer:
-      "Sí. Diseñamos búsquedas y propuestas para inversión inmobiliaria, lotes premium y desarrollos con análisis técnico de viabilidad.",
+      "No. Los lotes y desarrollos son escenarios de UI y no constituyen oportunidades de inversión.",
   },
   {
     question: "¿Cómo coordino una reunión de asesoramiento?",
     answer:
-      "Podés hacerlo por WhatsApp o formulario de contacto. Respondemos en menos de 24 horas hábiles para agendar reunión o visita.",
+      "No se coordinan reuniones. El formulario valida localmente, no envía datos y no promete respuesta.",
   },
 ];
 

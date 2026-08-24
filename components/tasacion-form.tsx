@@ -55,13 +55,13 @@ export function TasacionForm() {
       </div>
 
       <button type="submit" className="btn-primary w-full text-base">
-        Quiero mi tasación
+        Validar formulario de demo
       </button>
-      <p className="text-xs text-brand-charcoal/70">Te respondemos en menos de 24 h hábiles.</p>
+      <p className="text-xs text-brand-charcoal/70">Sin backend: la información no sale del navegador ni queda almacenada.</p>
 
       {sent ? (
         <div className="rounded-lg border border-brand-orange/40 bg-brand-warm p-4 text-sm text-brand-charcoal">
-          Recibimos tu solicitud de tasación. Te vamos a contactar para coordinar la visita.
+          Validación completada. La demo no envió ni guardó la solicitud.
         </div>
       ) : null}
     </form>

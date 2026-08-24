@@ -40,7 +40,7 @@ export default function FaqPage() {
                 <div className="flex items-start gap-3">
                   <Clock3 className="mt-0.5 h-5 w-5 shrink-0 text-brand-orange" aria-hidden />
                   <p className="text-sm leading-relaxed text-brand-charcoal/80">
-                    Si tu caso requiere análisis puntual, te respondemos en menos de 24 h hábiles.
+                    La demo no recibe consultas ni promete una respuesta; el contenido es orientativo y ficticio.
                   </p>
                 </div>
               </div>

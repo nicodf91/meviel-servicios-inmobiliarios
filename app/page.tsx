@@ -12,32 +12,32 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Inicio",
   description:
-    "Invert\u00ed o encontr\u00e1 tu pr\u00f3ximo hogar con acompa\u00f1amiento profesional. Meviel Servicios Inmobiliarios, Matr\u00edcula N\u00b0 7788.",
+    "Demo de portfolio con catálogo inmobiliario ficticio, filtros, fichas y formularios sin envío.",
   path: "/",
 });
 
 const trustPillars = [
   {
-    title: "Martillero Público - Mat. 7788",
-    text: "Asesoramiento profesional y respaldo normativo en cada paso de la operación.",
+    title: "Contenido de demostración",
+    text: "La identidad, matrícula, propiedades y operaciones no se presentan como datos verificados.",
     icon: ShieldCheck,
   },
   {
-    title: "Trayectoria Meviel",
-    text: "Experiencia real en construcción y desarrollo para evaluar propiedades con criterio técnico.",
+    title: "Arquitectura con App Router",
+    text: "Páginas estáticas, rutas dinámicas y componentes tipados para recorrer un catálogo local.",
     icon: Building2,
   },
   {
-    title: "Atención personalizada",
-    text: "Acompañamiento profesional y cercano para decisiones claras y seguras.",
+    title: "Formularios transparentes",
+    text: "Validación local sin backend, persistencia, agenda ni promesas de contacto.",
     icon: UserCheck,
   },
 ];
 
 const heroStats = [
-  { label: "Propiedades", value: 500, prefix: "+", delayMs: 0 },
-  { label: "Años", value: 15, suffix: "+", delayMs: 90 },
-  { label: "Operaciones", value: 1000, prefix: "+", delayMs: 180 },
+  { label: "Fichas demo", value: 9, prefix: "", suffix: "", delayMs: 0 },
+  { label: "Backends", value: 0, prefix: "", suffix: "", delayMs: 90 },
+  { label: "Datos reales", value: 0, prefix: "", suffix: "", delayMs: 180 },
 ];
 
 export default function HomePage() {
@@ -64,7 +64,7 @@ export default function HomePage() {
             <div className="relative z-10 px-5 pb-7 pt-9 sm:px-8 md:px-10 md:pb-10 md:pt-12 lg:px-12">
               <div className="mx-auto max-w-[1080px]">
                 <h1 className="mt-1 max-w-4xl rounded-xl border border-brand-white/20 bg-brand-charcoal/55 px-4 py-3 text-[2.35rem] font-semibold leading-[1.08] text-brand-white shadow-[0_10px_30px_rgba(0,0,0,0.28)] backdrop-blur-[2px] md:text-[3rem] lg:text-[3.35rem]">
-                  {`Invert\u00ed o encontr\u00e1 tu pr\u00f3ximo hogar con acompa\u00f1amiento profesional.`}
+                  {`Explorá una experiencia inmobiliaria construida como demo frontend.`}
                 </h1>
 
                 <div className="mt-10 max-w-[1020px] md:mt-12">
@@ -169,7 +169,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Ecosistema Meviel"
             title="Desarrollos propios"
-            description="Proyectos comercializados por Simon Bustamante Servicios Inmobiliarios, con respaldo estratégico y constructivo de Meviel."
+            description="Tarjetas ficticias para demostrar la presentación de desarrollos; no representan proyectos u ofertas activas."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {featuredDevelopments.map((development) => (
@@ -221,7 +221,7 @@ export default function HomePage() {
                 Tasá tu propiedad <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
               <p className="mt-2 text-xs text-brand-charcoal/70">
-                Te respondemos en menos de 24 h hábiles.
+                Formulario local sin envío ni respuesta posterior.
               </p>
             </div>
           </div>

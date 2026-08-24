@@ -8,29 +8,29 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Quiénes Somos",
   description:
-    "Conocé a Simon Bustamante Servicios Inmobiliarios: experiencia, criterio técnico y acompañamiento profesional con respaldo estratégico de Meviel.",
+    "Sección institucional ficticia de una demo de portfolio inmobiliario.",
   path: "/quienes-somos",
 });
 
 const pillars = [
   {
-    title: "Experiencia profesional",
-    text: "Trayectoria aplicada al análisis, la negociación y el acompañamiento de operaciones inmobiliarias.",
+    title: "Composición responsive",
+    text: "Distribución adaptable de perfil, narrativa, acciones y tarjetas informativas.",
     icon: ShieldCheck,
   },
   {
-    title: "Visión técnico-comercial",
-    text: "Evaluación integral de cada oportunidad para tomar decisiones con mejor información y menor riesgo.",
+    title: "Contenido estructurado",
+    text: "Componentes tipados para separar presentación, navegación y datos de muestra.",
     icon: HardHat,
   },
   {
-    title: "Acompañamiento personalizado",
-    text: "Asesoramiento cercano en cada etapa: búsqueda, análisis, gestión y cierre.",
+    title: "Alcance visible",
+    text: "Avisos persistentes diferencian la interfaz de una operación inmobiliaria real.",
     icon: Handshake,
   },
   {
-    title: "Respaldo estratégico Meviel",
-    text: "La trayectoria empresarial y experiencia constructiva de Meviel aportan solidez, soporte técnico y marco de confianza.",
+    title: "Uso de portfolio",
+    text: "La marca y el perfil son parte de la narrativa visual; no acreditan identidad o experiencia.",
     icon: Building,
   },
 ];
@@ -42,7 +42,7 @@ export default function WhoWeArePage() {
         <SectionHeading
           eyebrow="Quiénes Somos"
           title="Quiénes Somos"
-          description="Simon Bustamante Servicios Inmobiliarios lidera un servicio inmobiliario con criterio técnico, lectura de mercado y acompañamiento profesional para decisiones patrimoniales sólidas."
+          description="Esta página demuestra un layout institucional. La identidad, la fotografía y la biografía son ilustrativas y no acreditan una habilitación profesional."
         />
 
         <div className="space-y-8">
@@ -51,7 +51,7 @@ export default function WhoWeArePage() {
               <figure className="relative min-h-[420px] bg-brand-warm">
                 <Image
                   src="/brand/perfil-simon.png"
-                  alt="Perfil profesional de Simón Bustamante"
+                  alt="Fotografía ilustrativa de un perfil inmobiliario"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 420px"
@@ -63,41 +63,34 @@ export default function WhoWeArePage() {
               <article className="space-y-8 px-6 py-8 md:px-10 md:py-10">
                 <header className="border-b border-brand-gray/80 pb-6">
                   <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-charcoal/70">
-                    Simon Bustamante Servicios Inmobiliarios
+                    Perfil institucional de muestra
                   </p>
                   <h2 className="mt-2 text-2xl font-semibold leading-tight md:text-3xl">
-                    Matrícula N° 7788
+                    Sin identidad ni matrícula verificadas
                   </h2>
                 </header>
 
                 <div className="space-y-5 text-base leading-relaxed text-brand-charcoal/88 md:text-[1.05rem]">
                   <p>
-                    Simon Bustamante Servicios Inmobiliarios nace con una misión clara: brindar
-                    asesoramiento inmobiliario confiable, personalizado y orientado a resultados
-                    reales. Cada operación se aborda como una decisión patrimonial importante, con
-                    foco en la claridad, el análisis y el seguimiento en cada etapa.
+                    El bloque representa cómo podría presentarse una marca inmobiliaria en un sitio
+                    institucional. No describe una empresa operativa ni resultados reales.
                   </p>
                   <p>
-                    Soy Martillero, Corredor Público e Inmobiliario, y desarrollo mi actividad con
-                    una mirada profesional que integra experiencia de campo, criterio técnico y
-                    enfoque humano. Mi trabajo está centrado en acompañar a cada cliente con
-                    información clara, evaluación responsable y una estrategia adecuada para su
-                    objetivo.
+                    Una versión productiva debería usar identidad, habilitación, dominio, contactos
+                    y contenidos verificados por el titular antes de habilitar formularios o indexación.
                   </p>
                   <p>
-                    Mi visión inmobiliaria parte de una premisa simple: una buena decisión no
-                    depende solo de encontrar una propiedad, sino de entender su valor, su
-                    potencial y el contexto del mercado. Por eso priorizo el análisis, la
-                    planificación y el asesoramiento personalizado.
+                    En esta demo, las acciones conducen a formularios locales y deben probarse
+                    únicamente con datos ficticios.
                   </p>
                 </div>
 
                 <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
                   <Link href="/contacto" className="btn-primary">
-                    Agendar reunión
+                    Ver formulario demostrativo
                   </Link>
                   <p className="text-xs text-brand-charcoal/70">
-                    Te respondemos en menos de 24 h hábiles.
+                    No se envían datos ni se promete respuesta.
                   </p>
                 </div>
               </article>
@@ -106,10 +99,8 @@ export default function WhoWeArePage() {
 
           <article className="panel p-8">
             <p className="max-w-4xl text-lg text-brand-charcoal/85">
-              Mi enfoque profesional combina cercanía y método: procesos ordenados, seguimiento
-              constante y compromiso en cada instancia de compra, venta, renta o inversión. La
-              propuesta de valor es clara: reducir incertidumbre, ordenar la decisión y acompañar
-              con criterio en todo el proceso.
+              El objetivo de esta sección es mostrar jerarquía editorial, navegación y componentes
+              reutilizables. Todo texto comercial requiere validación externa antes de publicarse.
             </p>
 
             <div className="mt-8 grid gap-5 md:grid-cols-2">
@@ -126,10 +117,8 @@ export default function WhoWeArePage() {
             </div>
 
             <p className="mt-8 max-w-4xl text-base leading-relaxed text-brand-charcoal/85">
-              La atención y conducción inmobiliaria están a cargo de Simon Bustamante Servicios
-              Inmobiliarios. El respaldo estratégico de Meviel suma estructura, trayectoria y
-              confianza, fortaleciendo cada operación sin desplazar el protagonismo del servicio
-              profesional que la lidera.
+              El repositorio no aporta evidencia de clientes, operaciones, matrícula o trayectoria;
+              por eso esta versión se declara únicamente como demo frontend de portfolio.
             </p>
           </article>
         </div>
