@@ -440,7 +440,7 @@ export const faqItems: FaqItem[] = [
   {
     question: "¿Qué documentación necesito para vender una propiedad?",
     answer:
-      "En general se solicita escritura, DNI titular, planos (si existen), impuestos y servicios al día. Analizamos cada caso para confirmar documentación adicional.",
+      "En una operación real, la documentación necesaria debe confirmarse con un profesional habilitado; esta demo no revisa casos ni documentos.",
   },
   {
     question: "¿Cómo se reserva una propiedad?",
