@@ -169,7 +169,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Ecosistema Meviel"
             title="Desarrollos propios"
-            description="Proyectos comercializados por Simon Bustamante Servicios Inmobiliarios, con respaldo estratégico y constructivo de Meviel."
+            description="Tarjetas ficticias para demostrar la presentación de desarrollos; no representan proyectos u ofertas activas."
           />
           <div className="grid gap-6 md:grid-cols-2">
             {featuredDevelopments.map((development) => (

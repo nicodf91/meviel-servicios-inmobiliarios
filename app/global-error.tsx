@@ -17,7 +17,7 @@ export default function GlobalError({
             <div className="panel space-y-4 p-8 text-center">
               <h1 className="text-3xl font-semibold">No pudimos cargar el sitio correctamente.</h1>
               <p className="text-sm text-brand-charcoal/75">
-                Reintentá en unos segundos. Si persiste, contactanos por WhatsApp.
+                Reintentá en unos segundos. Esta demo no dispone de soporte o contacto operativo.
               </p>
               {error.digest ? (
                 <p className="text-xs text-brand-charcoal/60">Código de referencia: {error.digest}</p>

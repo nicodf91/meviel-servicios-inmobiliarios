@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/metadata";
 export const metadata = buildMetadata({
   title: "Misión y Visión",
   description:
-    "Conocé la misión y visión de Simon Bustamante Servicios Inmobiliarios, con respaldo estratégico de Meviel.",
+    "Sección narrativa ficticia usada para demostrar un layout institucional.",
   path: "/mision-vision",
 });
 
@@ -15,19 +15,19 @@ const strategicCards = [
   {
     title: "Misión",
     icon: Target,
-    text: "Brindar asesoramiento y gestión inmobiliaria profesional, clara y personalizada para que cada cliente tome decisiones patrimoniales con mejor información, menor incertidumbre y acompañamiento responsable en todo el proceso.",
+    text: "Demostrar cómo una interfaz puede estructurar propósito, valores y contenido institucional sin atribuir una operación real.",
   },
   {
     title: "Visión",
     icon: Telescope,
-    text: "Consolidar a Simon Bustamante Servicios Inmobiliarios como referente de confianza en comercialización y asesoramiento inmobiliario, integrando lectura de mercado, criterio técnico y enfoque humano en cada operación.",
+    text: "Mantener una experiencia responsive, tipada y transparente respecto de sus datos y capacidades ficticias.",
   },
 ];
 
 const executionPrinciples = [
-  "Procesos claros y seguimiento constante para reducir fricción y riesgo percibido.",
-  "Evaluación técnico-comercial para tomar decisiones con criterio, no por impulso.",
-  "Acompañamiento cercano en compra, venta, renta e inversión con foco patrimonial.",
+  "Aviso persistente del alcance de demostración.",
+  "Formularios locales sin transporte ni persistencia.",
+  "Datos estáticos sanitizados y rutas prerenderizadas.",
 ];
 
 export default function MissionVisionPage() {
@@ -37,7 +37,7 @@ export default function MissionVisionPage() {
         <SectionHeading
           eyebrow="Marco estratégico"
           title="Misión y Visión"
-          description="Principios que guían el servicio inmobiliario liderado por Simon Bustamante Servicios Inmobiliarios, con Meviel como respaldo estratégico y marco de confianza."
+          description="Contenido ficticio para demostrar una página institucional; no describe una empresa operativa, liderazgo ni trayectoria."
           align="center"
         />
 
@@ -48,20 +48,17 @@ export default function MissionVisionPage() {
           <div className="relative grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
             <article className="space-y-5">
               <div className="inline-flex items-center rounded-full border border-brand-gray/80 bg-brand-white/90 px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-brand-charcoal/80">
-                Simon Bustamante Servicios Inmobiliarios
+                Narrativa institucional de muestra
               </div>
 
               <p className="max-w-2xl text-lg leading-relaxed text-brand-charcoal/90">
-                La misión y la visión de esta unidad de negocio están enfocadas en una prioridad:
-                ofrecer un servicio inmobiliario profesional, confiable y estratégicamente orientado
-                a la toma de decisiones patrimoniales.
+                Este bloque permite evaluar jerarquía editorial, grillas y tarjetas. Sus afirmaciones
+                no se atribuyen a una persona, empresa o unidad de negocio real.
               </p>
 
               <p className="max-w-2xl text-base leading-relaxed text-brand-charcoal/80">
-                Simon lidera la dirección comercial y el acompañamiento operativo de cada proceso.
-                Meviel aporta trayectoria empresarial, experiencia en construcción y soporte técnico
-                como respaldo que fortalece la propuesta sin desplazar el liderazgo del servicio
-                inmobiliario.
+                Una versión productiva necesitaría autorización de marca, identidad profesional,
+                contenidos y evidencia verificables antes de habilitar indexación o contacto.
               </p>
 
               <div className="rounded-2xl border border-brand-gray/80 bg-brand-warm/65 p-5">
@@ -71,14 +68,14 @@ export default function MissionVisionPage() {
                   </div>
                   <div>
                     <p className="text-xs font-semibold uppercase tracking-[0.14em] text-brand-charcoal/65">
-                      Respaldo Estratégico
+                      Decisión de portfolio
                     </p>
-                    <p className="text-sm text-brand-charcoal/85">Meviel como transferencia de confianza</p>
+                    <p className="text-sm text-brand-charcoal/85">Transparencia antes que claims comerciales</p>
                   </div>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-brand-charcoal/80">
-                  La solidez operativa y la experiencia constructiva de Meviel reducen riesgo
-                  percibido y suman consistencia técnica en la evaluación de oportunidades.
+                  El repositorio no acredita solidez operativa, experiencia constructiva ni
+                  evaluación de oportunidades; por eso esta narrativa se declara ficticia.
                 </p>
               </div>
             </article>
@@ -114,7 +111,7 @@ export default function MissionVisionPage() {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-brand-gray/80 bg-brand-warm">
                 <ShieldCheck className="h-5 w-5 text-brand-orange" aria-hidden />
               </div>
-              <h2 className="text-xl font-semibold md:text-2xl">Cómo se traduce en cada operación</h2>
+              <h2 className="text-xl font-semibold md:text-2xl">Cómo se traduce en la implementación</h2>
             </div>
 
             <ul className="mt-5 grid gap-3">
@@ -135,12 +132,11 @@ export default function MissionVisionPage() {
                 Siguiente paso
               </p>
               <p className="mt-3 text-sm leading-relaxed text-brand-charcoal/85">
-                Coordiná una reunión para evaluar tu operación con criterio profesional y una
-                estrategia adecuada a tu objetivo.
+                Revisá el formulario local para comprobar sus estados sin enviar información.
               </p>
             </div>
             <Link href="/contacto" className="btn-primary mt-5 inline-flex w-full justify-center gap-2">
-              Coordinar asesoramiento
+              Probar formulario demo
               <ArrowRight className="h-4 w-4" aria-hidden />
             </Link>
           </aside>

@@ -445,47 +445,47 @@ export const faqItems: FaqItem[] = [
   {
     question: "¿Cómo se reserva una propiedad?",
     answer:
-      "Se firma una reserva con propuesta formal y se deja una seña. Luego se coordina la etapa de boleto y revisión documental previa a la escritura.",
+      "La demo no reserva propiedades ni recibe señas. Esta pregunta solo muestra el componente de acordeón.",
   },
   {
     question: "¿Cómo se calcula la comisión inmobiliaria?",
     answer:
-      "La comisión se informa con transparencia al inicio de la operación y depende del tipo de inmueble, modalidad y alcance del servicio contratado.",
+      "La demo no calcula comisiones ni ofrece servicios; cualquier condición comercial requeriría información verificada.",
   },
   {
     question: "¿Realizan tasaciones para herencias o divisiones?",
     answer:
-      "Sí. Trabajamos tasaciones con criterio técnico y respaldo documental para operaciones privadas, sucesiones, particiones y acuerdos entre partes.",
+      "No. El formulario es local y no produce tasaciones, informes ni documentación.",
   },
   {
     question: "¿Cuánto tarda en venderse una propiedad?",
     answer:
-      "Depende de ubicación, estado, precio de salida y estrategia comercial. Nuestro objetivo es reducir tiempos con posicionamiento correcto y difusión profesional.",
+      "No se puede estimar: las publicaciones son ficticias y no existe una operación comercial.",
   },
   {
     question: "¿También trabajan alquileres?",
     answer:
-      "Sí, gestionamos alquileres residenciales y comerciales con análisis de perfil, requisitos y acompañamiento contractual en cada etapa.",
+      "No. La interfaz muestra filtros de venta y alquiler sobre un dataset ficticio, sin gestión contractual.",
   },
   {
     question: "¿Puedo comprar una propiedad con crédito hipotecario?",
     answer:
-      "Sí, en inmuebles aptos crédito. Te acompañamos en la coordinación con entidad financiera y en la documentación necesaria para la operación.",
+      "La demo no coordina créditos ni valida inmuebles; no debe usarse para decisiones financieras.",
   },
   {
     question: "¿Qué incluye el servicio de comercialización?",
     answer:
-      "Incluye tasación estratégica, producción audiovisual, publicación en portales y redes, gestión de consultas, visitas guiadas y negociación profesional.",
+      "No existe un servicio de comercialización. La página demuestra componentes frontend y contenido estático.",
   },
   {
     question: "¿Trabajan con inversores para lotes y desarrollos?",
     answer:
-      "Sí. Diseñamos búsquedas y propuestas para inversión inmobiliaria, lotes premium y desarrollos con análisis técnico de viabilidad.",
+      "No. Los lotes y desarrollos son escenarios de UI y no constituyen oportunidades de inversión.",
   },
   {
     question: "¿Cómo coordino una reunión de asesoramiento?",
     answer:
-      "Podés hacerlo por WhatsApp o formulario de contacto. Respondemos en menos de 24 horas hábiles para agendar reunión o visita.",
+      "No se coordinan reuniones. El formulario valida localmente, no envía datos y no promete respuesta.",
   },
 ];
 
